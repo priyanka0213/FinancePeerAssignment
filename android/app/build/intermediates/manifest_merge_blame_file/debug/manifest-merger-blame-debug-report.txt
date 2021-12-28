@@ -1,0 +1,195 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.tripbookingapp"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+9        android:targetSdkVersion="29" />
+10
+11    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+11-->D:\assignment\android\app\src\debug\AndroidManifest.xml:5:5-77
+11-->D:\assignment\android\app\src\debug\AndroidManifest.xml:5:22-75
+12    <uses-permission android:name="android.permission.INTERNET" />
+12-->D:\assignment\android\app\src\main\AndroidManifest.xml:4:5-67
+12-->D:\assignment\android\app\src\main\AndroidManifest.xml:4:22-64
+13    <uses-permission android:name="android.permission.CAMERA" />
+13-->D:\assignment\android\app\src\main\AndroidManifest.xml:5:1-61
+13-->D:\assignment\android\app\src\main\AndroidManifest.xml:5:18-58
+14    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+14-->D:\assignment\android\app\src\main\AndroidManifest.xml:6:1-75
+14-->D:\assignment\android\app\src\main\AndroidManifest.xml:6:18-72
+15    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+15-->[com.facebook.flipper:flipper:0.37.0] C:\Users\hp\.gradle\caches\transforms-2\files-2.1\39211847cc6a41de4ca2511c9fe76990\flipper-0.37.0\AndroidManifest.xml:16:5-76
+15-->[com.facebook.flipper:flipper:0.37.0] C:\Users\hp\.gradle\caches\transforms-2\files-2.1\39211847cc6a41de4ca2511c9fe76990\flipper-0.37.0\AndroidManifest.xml:16:22-73
+16
+17    <uses-feature
+17-->[:react-native-camera] D:\assignment\node_modules\react-native-camera\android\build\intermediates\library_manifest\generalDebug\AndroidManifest.xml:11:5-13:36
+18        android:name="android.hardware.camera"
+18-->[:react-native-camera] D:\assignment\node_modules\react-native-camera\android\build\intermediates\library_manifest\generalDebug\AndroidManifest.xml:12:9-47
+19        android:required="false" />
+19-->[:react-native-camera] D:\assignment\node_modules\react-native-camera\android\build\intermediates\library_manifest\generalDebug\AndroidManifest.xml:13:9-33
+20    <uses-feature
+20-->[:react-native-camera] D:\assignment\node_modules\react-native-camera\android\build\intermediates\library_manifest\generalDebug\AndroidManifest.xml:14:5-16:36
+21        android:name="android.hardware.camera.autofocus"
+21-->[:react-native-camera] D:\assignment\node_modules\react-native-camera\android\build\intermediates\library_manifest\generalDebug\AndroidManifest.xml:15:9-57
+22        android:required="false" /> <!-- Although the *SdkVersion is captured in gradle build files, this is required for non gradle builds -->
+22-->[:react-native-camera] D:\assignment\node_modules\react-native-camera\android\build\intermediates\library_manifest\generalDebug\AndroidManifest.xml:16:9-33
+23    <!-- <uses-sdk android:minSdkVersion="14"/> -->
+24    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+24-->[com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\hp\.gradle\caches\transforms-2\files-2.1\50cc2bbe9b2627836ff1db852c464076\jetified-transport-backend-cct-2.3.3\AndroidManifest.xml:25:5-79
+24-->[com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\hp\.gradle\caches\transforms-2\files-2.1\50cc2bbe9b2627836ff1db852c464076\jetified-transport-backend-cct-2.3.3\AndroidManifest.xml:25:22-76
+25
+26    <application
+26-->D:\assignment\android\app\src\main\AndroidManifest.xml:7:5-30:19
+27        android:name="com.tripbookingapp.MainApplication"
+27-->D:\assignment\android\app\src\main\AndroidManifest.xml:8:7-38
+28        android:allowBackup="false"
+28-->D:\assignment\android\app\src\main\AndroidManifest.xml:12:7-34
+29        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+29-->[androidx.core:core:1.2.0] C:\Users\hp\.gradle\caches\transforms-2\files-2.1\f898f3bbeb004c0a575dad6525a53a27\core-1.2.0\AndroidManifest.xml:24:18-86
+30        android:debuggable="true"
+31        android:icon="@mipmap/ic_launcher"
+31-->D:\assignment\android\app\src\main\AndroidManifest.xml:10:7-41
+32        android:label="@string/app_name"
+32-->D:\assignment\android\app\src\main\AndroidManifest.xml:9:7-39
+33        android:roundIcon="@mipmap/ic_launcher_round"
+33-->D:\assignment\android\app\src\main\AndroidManifest.xml:11:7-52
+34        android:theme="@style/AppTheme"
+34-->D:\assignment\android\app\src\main\AndroidManifest.xml:13:7-38
+35        android:usesCleartextTraffic="true" >
+35-->D:\assignment\android\app\src\debug\AndroidManifest.xml:7:18-53
+36        <meta-data
+36-->D:\assignment\android\app\src\main\AndroidManifest.xml:14:10-16:63
+37            android:name="com.google.android.geo.API_KEY"
+37-->D:\assignment\android\app\src\main\AndroidManifest.xml:15:6-51
+38            android:value="AIzaSyBYCiYVIdYIz5XO4-gOZvUS3hto0jSEj7Y" />
+38-->D:\assignment\android\app\src\main\AndroidManifest.xml:16:6-61
+39
+40        <activity
+40-->D:\assignment\android\app\src\main\AndroidManifest.xml:18:7-28:18
+41            android:name="com.tripbookingapp.MainActivity"
+41-->D:\assignment\android\app\src\main\AndroidManifest.xml:19:9-37
+42            android:configChanges="keyboard|keyboardHidden|orientation|screenSize|uiMode"
+42-->D:\assignment\android\app\src\main\AndroidManifest.xml:21:9-86
+43            android:label="@string/app_name"
+43-->D:\assignment\android\app\src\main\AndroidManifest.xml:20:9-41
+44            android:launchMode="singleTask"
+44-->D:\assignment\android\app\src\main\AndroidManifest.xml:22:9-40
+45            android:windowSoftInputMode="adjustResize" >
+45-->D:\assignment\android\app\src\main\AndroidManifest.xml:23:9-51
+46            <intent-filter>
+46-->D:\assignment\android\app\src\main\AndroidManifest.xml:24:9-27:25
+47                <action android:name="android.intent.action.MAIN" />
+47-->D:\assignment\android\app\src\main\AndroidManifest.xml:25:13-65
+47-->D:\assignment\android\app\src\main\AndroidManifest.xml:25:21-62
+48
+49                <category android:name="android.intent.category.LAUNCHER" />
+49-->D:\assignment\android\app\src\main\AndroidManifest.xml:26:13-73
+49-->D:\assignment\android\app\src\main\AndroidManifest.xml:26:23-70
+50            </intent-filter>
+51        </activity>
+52        <activity android:name="com.facebook.react.devsupport.DevSettingsActivity" />
+52-->D:\assignment\android\app\src\main\AndroidManifest.xml:29:7-84
+52-->D:\assignment\android\app\src\main\AndroidManifest.xml:29:17-81
+53
+54        <service
+54-->[com.google.android.gms:play-services-mlkit-barcode-scanning:16.2.0] C:\Users\hp\.gradle\caches\transforms-2\files-2.1\4971379176b6b35594919bc9e492e3ae\play-services-mlkit-barcode-scanning-16.2.0\AndroidManifest.xml:9:9-15:19
+55            android:name="com.google.mlkit.common.internal.MlKitComponentDiscoveryService"
+55-->[com.google.android.gms:play-services-mlkit-barcode-scanning:16.2.0] C:\Users\hp\.gradle\caches\transforms-2\files-2.1\4971379176b6b35594919bc9e492e3ae\play-services-mlkit-barcode-scanning-16.2.0\AndroidManifest.xml:10:13-91
+56            android:directBootAware="true"
+56-->[com.google.mlkit:common:17.2.0] C:\Users\hp\.gradle\caches\transforms-2\files-2.1\86133cf6a65fa5f985e48ac419fd10b5\common-17.2.0\AndroidManifest.xml:17:13-43
+57            android:exported="false" >
+57-->[com.google.android.gms:play-services-mlkit-barcode-scanning:16.2.0] C:\Users\hp\.gradle\caches\transforms-2\files-2.1\4971379176b6b35594919bc9e492e3ae\play-services-mlkit-barcode-scanning-16.2.0\AndroidManifest.xml:11:13-37
+58            <meta-data
+58-->[com.google.android.gms:play-services-mlkit-barcode-scanning:16.2.0] C:\Users\hp\.gradle\caches\transforms-2\files-2.1\4971379176b6b35594919bc9e492e3ae\play-services-mlkit-barcode-scanning-16.2.0\AndroidManifest.xml:12:13-14:85
+59                android:name="com.google.firebase.components:com.google.mlkit.vision.barcode.internal.BarcodeRegistrar"
+59-->[com.google.android.gms:play-services-mlkit-barcode-scanning:16.2.0] C:\Users\hp\.gradle\caches\transforms-2\files-2.1\4971379176b6b35594919bc9e492e3ae\play-services-mlkit-barcode-scanning-16.2.0\AndroidManifest.xml:13:17-120
+60                android:value="com.google.firebase.components.ComponentRegistrar" />
+60-->[com.google.android.gms:play-services-mlkit-barcode-scanning:16.2.0] C:\Users\hp\.gradle\caches\transforms-2\files-2.1\4971379176b6b35594919bc9e492e3ae\play-services-mlkit-barcode-scanning-16.2.0\AndroidManifest.xml:14:17-82
+61            <meta-data
+61-->[com.google.android.gms:play-services-mlkit-face-detection:16.2.0] C:\Users\hp\.gradle\caches\transforms-2\files-2.1\87239bac9014d0944394d43fd24de99f\play-services-mlkit-face-detection-16.2.0\AndroidManifest.xml:12:13-14:85
+62                android:name="com.google.firebase.components:com.google.mlkit.vision.face.internal.FaceRegistrar"
+62-->[com.google.android.gms:play-services-mlkit-face-detection:16.2.0] C:\Users\hp\.gradle\caches\transforms-2\files-2.1\87239bac9014d0944394d43fd24de99f\play-services-mlkit-face-detection-16.2.0\AndroidManifest.xml:13:17-114
+63                android:value="com.google.firebase.components.ComponentRegistrar" />
+63-->[com.google.android.gms:play-services-mlkit-face-detection:16.2.0] C:\Users\hp\.gradle\caches\transforms-2\files-2.1\87239bac9014d0944394d43fd24de99f\play-services-mlkit-face-detection-16.2.0\AndroidManifest.xml:14:17-82
+64            <meta-data
+64-->[com.google.android.gms:play-services-mlkit-text-recognition:16.3.0] C:\Users\hp\.gradle\caches\transforms-2\files-2.1\1670ab1296012278982fd33fdcfb2188\play-services-mlkit-text-recognition-16.3.0\AndroidManifest.xml:12:13-14:85
+65                android:name="com.google.firebase.components:com.google.mlkit.vision.text.internal.TextRegistrar"
+65-->[com.google.android.gms:play-services-mlkit-text-recognition:16.3.0] C:\Users\hp\.gradle\caches\transforms-2\files-2.1\1670ab1296012278982fd33fdcfb2188\play-services-mlkit-text-recognition-16.3.0\AndroidManifest.xml:13:17-114
+66                android:value="com.google.firebase.components.ComponentRegistrar" />
+66-->[com.google.android.gms:play-services-mlkit-text-recognition:16.3.0] C:\Users\hp\.gradle\caches\transforms-2\files-2.1\1670ab1296012278982fd33fdcfb2188\play-services-mlkit-text-recognition-16.3.0\AndroidManifest.xml:14:17-82
+67            <meta-data
+67-->[com.google.mlkit:vision-common:16.5.0] C:\Users\hp\.gradle\caches\transforms-2\files-2.1\e4c1e382091d58ca958a8cf932b3015b\vision-common-16.5.0\AndroidManifest.xml:12:13-14:85
+68                android:name="com.google.firebase.components:com.google.mlkit.vision.common.internal.VisionCommonRegistrar"
+68-->[com.google.mlkit:vision-common:16.5.0] C:\Users\hp\.gradle\caches\transforms-2\files-2.1\e4c1e382091d58ca958a8cf932b3015b\vision-common-16.5.0\AndroidManifest.xml:13:17-124
+69                android:value="com.google.firebase.components.ComponentRegistrar" />
+69-->[com.google.mlkit:vision-common:16.5.0] C:\Users\hp\.gradle\caches\transforms-2\files-2.1\e4c1e382091d58ca958a8cf932b3015b\vision-common-16.5.0\AndroidManifest.xml:14:17-82
+70            <meta-data
+70-->[com.google.mlkit:common:17.2.0] C:\Users\hp\.gradle\caches\transforms-2\files-2.1\86133cf6a65fa5f985e48ac419fd10b5\common-17.2.0\AndroidManifest.xml:20:13-22:85
+71                android:name="com.google.firebase.components:com.google.mlkit.common.internal.CommonComponentRegistrar"
+71-->[com.google.mlkit:common:17.2.0] C:\Users\hp\.gradle\caches\transforms-2\files-2.1\86133cf6a65fa5f985e48ac419fd10b5\common-17.2.0\AndroidManifest.xml:21:17-120
+72                android:value="com.google.firebase.components.ComponentRegistrar" />
+72-->[com.google.mlkit:common:17.2.0] C:\Users\hp\.gradle\caches\transforms-2\files-2.1\86133cf6a65fa5f985e48ac419fd10b5\common-17.2.0\AndroidManifest.xml:22:17-82
+73        </service>
+74
+75        <provider
+75-->[com.google.mlkit:common:17.2.0] C:\Users\hp\.gradle\caches\transforms-2\files-2.1\86133cf6a65fa5f985e48ac419fd10b5\common-17.2.0\AndroidManifest.xml:9:9-13:38
+76            android:name="com.google.mlkit.common.internal.MlKitInitProvider"
+76-->[com.google.mlkit:common:17.2.0] C:\Users\hp\.gradle\caches\transforms-2\files-2.1\86133cf6a65fa5f985e48ac419fd10b5\common-17.2.0\AndroidManifest.xml:10:13-78
+77            android:authorities="com.tripbookingapp.mlkitinitprovider"
+77-->[com.google.mlkit:common:17.2.0] C:\Users\hp\.gradle\caches\transforms-2\files-2.1\86133cf6a65fa5f985e48ac419fd10b5\common-17.2.0\AndroidManifest.xml:11:13-69
+78            android:exported="false"
+78-->[com.google.mlkit:common:17.2.0] C:\Users\hp\.gradle\caches\transforms-2\files-2.1\86133cf6a65fa5f985e48ac419fd10b5\common-17.2.0\AndroidManifest.xml:12:13-37
+79            android:initOrder="99" />
+79-->[com.google.mlkit:common:17.2.0] C:\Users\hp\.gradle\caches\transforms-2\files-2.1\86133cf6a65fa5f985e48ac419fd10b5\common-17.2.0\AndroidManifest.xml:13:13-35
+80
+81        <service
+81-->[com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\hp\.gradle\caches\transforms-2\files-2.1\50cc2bbe9b2627836ff1db852c464076\jetified-transport-backend-cct-2.3.3\AndroidManifest.xml:29:9-35:19
+82            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+82-->[com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\hp\.gradle\caches\transforms-2\files-2.1\50cc2bbe9b2627836ff1db852c464076\jetified-transport-backend-cct-2.3.3\AndroidManifest.xml:30:13-103
+83            android:exported="false" >
+83-->[com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\hp\.gradle\caches\transforms-2\files-2.1\50cc2bbe9b2627836ff1db852c464076\jetified-transport-backend-cct-2.3.3\AndroidManifest.xml:31:13-37
+84            <meta-data
+84-->[com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\hp\.gradle\caches\transforms-2\files-2.1\50cc2bbe9b2627836ff1db852c464076\jetified-transport-backend-cct-2.3.3\AndroidManifest.xml:32:13-34:39
+85                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
+85-->[com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\hp\.gradle\caches\transforms-2\files-2.1\50cc2bbe9b2627836ff1db852c464076\jetified-transport-backend-cct-2.3.3\AndroidManifest.xml:33:17-94
+86                android:value="cct" />
+86-->[com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\hp\.gradle\caches\transforms-2\files-2.1\50cc2bbe9b2627836ff1db852c464076\jetified-transport-backend-cct-2.3.3\AndroidManifest.xml:34:17-36
+87        </service>
+88        <service
+88-->[com.google.android.datatransport:transport-runtime:2.2.6] C:\Users\hp\.gradle\caches\transforms-2\files-2.1\5d39a9a234900d3f41e4d91137349935\jetified-transport-runtime-2.2.6\AndroidManifest.xml:26:9-30:19
+89            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+89-->[com.google.android.datatransport:transport-runtime:2.2.6] C:\Users\hp\.gradle\caches\transforms-2\files-2.1\5d39a9a234900d3f41e4d91137349935\jetified-transport-runtime-2.2.6\AndroidManifest.xml:27:13-117
+90            android:exported="false"
+90-->[com.google.android.datatransport:transport-runtime:2.2.6] C:\Users\hp\.gradle\caches\transforms-2\files-2.1\5d39a9a234900d3f41e4d91137349935\jetified-transport-runtime-2.2.6\AndroidManifest.xml:28:13-37
+91            android:permission="android.permission.BIND_JOB_SERVICE" >
+91-->[com.google.android.datatransport:transport-runtime:2.2.6] C:\Users\hp\.gradle\caches\transforms-2\files-2.1\5d39a9a234900d3f41e4d91137349935\jetified-transport-runtime-2.2.6\AndroidManifest.xml:29:13-69
+92        </service>
+93
+94        <receiver
+94-->[com.google.android.datatransport:transport-runtime:2.2.6] C:\Users\hp\.gradle\caches\transforms-2\files-2.1\5d39a9a234900d3f41e4d91137349935\jetified-transport-runtime-2.2.6\AndroidManifest.xml:32:9-34:40
+95            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+95-->[com.google.android.datatransport:transport-runtime:2.2.6] C:\Users\hp\.gradle\caches\transforms-2\files-2.1\5d39a9a234900d3f41e4d91137349935\jetified-transport-runtime-2.2.6\AndroidManifest.xml:33:13-132
+96            android:exported="false" />
+96-->[com.google.android.datatransport:transport-runtime:2.2.6] C:\Users\hp\.gradle\caches\transforms-2\files-2.1\5d39a9a234900d3f41e4d91137349935\jetified-transport-runtime-2.2.6\AndroidManifest.xml:34:13-37
+97
+98        <activity
+98-->[com.google.android.gms:play-services-base:17.6.0] C:\Users\hp\.gradle\caches\transforms-2\files-2.1\ca152e5b3ff91fca10f320021eaa4fb3\play-services-base-17.6.0\AndroidManifest.xml:23:9-26:75
+99            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+99-->[com.google.android.gms:play-services-base:17.6.0] C:\Users\hp\.gradle\caches\transforms-2\files-2.1\ca152e5b3ff91fca10f320021eaa4fb3\play-services-base-17.6.0\AndroidManifest.xml:24:13-79
+100            android:exported="false"
+100-->[com.google.android.gms:play-services-base:17.6.0] C:\Users\hp\.gradle\caches\transforms-2\files-2.1\ca152e5b3ff91fca10f320021eaa4fb3\play-services-base-17.6.0\AndroidManifest.xml:25:13-37
+101            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+101-->[com.google.android.gms:play-services-base:17.6.0] C:\Users\hp\.gradle\caches\transforms-2\files-2.1\ca152e5b3ff91fca10f320021eaa4fb3\play-services-base-17.6.0\AndroidManifest.xml:26:13-72
+102
+103        <meta-data
+103-->[com.google.android.gms:play-services-basement:17.6.0] C:\Users\hp\.gradle\caches\transforms-2\files-2.1\013720e90964a5b7e6236f721f6926ad\jetified-play-services-basement-17.6.0\AndroidManifest.xml:23:9-25:69
+104            android:name="com.google.android.gms.version"
+104-->[com.google.android.gms:play-services-basement:17.6.0] C:\Users\hp\.gradle\caches\transforms-2\files-2.1\013720e90964a5b7e6236f721f6926ad\jetified-play-services-basement-17.6.0\AndroidManifest.xml:24:13-58
+105            android:value="@integer/google_play_services_version" />
+105-->[com.google.android.gms:play-services-basement:17.6.0] C:\Users\hp\.gradle\caches\transforms-2\files-2.1\013720e90964a5b7e6236f721f6926ad\jetified-play-services-basement-17.6.0\AndroidManifest.xml:25:13-66
+106    </application>
+107
+108</manifest>
